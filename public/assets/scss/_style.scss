@@ -31,7 +31,26 @@ header.band {
 	}
 }
 
-h3.titulo{
+header.band.faq{
+	background: url(../img/bcg-2.jpg) no-repeat;
+	padding: 10% 0 4% 0;
+}
+
+.band.faq.listado{
+	padding: 25px 0 25px 0;
+	ul li a{text-decoration: none;}
+}
+
+.container.faq.respuesta{
+	a.button{
+		line-height: 28px;
+		height: 28px;
+		padding: 0 20px;
+		font-size: 10px;
+	}
+}
+
+h3.titulo, h5.titulo{
 	color: #47a5ae;
 	padding-bottom: 10px;
 }
