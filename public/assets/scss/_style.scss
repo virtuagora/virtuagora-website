@@ -33,6 +33,7 @@ header.band {
 
 header.band.faq{
     background: url(../img/bcg-2.jpg) no-repeat;
+    background-size: cover;
     padding: 10% 0 4% 0;
 }
 
@@ -316,7 +317,12 @@ footer{
     text-align: right;
     border-bottom: 1px solid #FFF;
     li {
-        a{color: #FFF; text-decoration: none;}
+        &.actual{color: #FFF; text-decoration: underline;}
+        a{
+            color: #FFF;
+            text-decoration: none;
+            &:hover{text-decoration: underline;}
+        }
         display:inline-block;
         padding:1em;
         margin:0;
@@ -339,7 +345,11 @@ footer{
 }
 
 #nav > li {
-    a{text-decoration: none;}
+    &.actual{color: #56c6d0; text-decoration: underline;}
+    a{
+        text-decoration: none;
+        &:hover{text-decoration: underline;}
+    }
     display:inline-block;
     padding:1em;
     margin:0;
