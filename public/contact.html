@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--viewport goodness http://enva.to/A79s3G-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Virtuágora - Plataforma web de participación ciudadana</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="assets/css/app.css">
+    </head>
+    <body class="contact-us">
+        <div class="band">
+            <ul id="nav3">
+                <a href="index.html" alt="Inicio"><img src="assets/img/small-logo.png" alt=""></a>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="docs.html">Docs</a></li>
+                <li class="actual">Contacto</li>
+            </ul>
+        </div>
+        <div class="formulario container">
+            <div class="row centrar">
+               <div class="columns two ocultar-mobile">&nbsp;</div>
+                    <div class="columns eight">
+                    <h2>¡Contactanos!</h2>
+                    <p>Si te interesa saber mas, o aportar al proyecto desde tu lugar como profesional de cualquier rama, nos encantarìa ponernos en contacto contigo.</p>
+                    <p>Complete el siguiente formulario y nos pondremos en contacto con usted en la brevedad.</p>
+                    </div>
+                    <div class="columns two ocultar-mobile">&nbsp;</div>
+            </div>
+            <form action="">
+                <div class="row">
+                    <div class="columns two ocultar-mobile">&nbsp;</div>
+                    <div class="columns four">
+                        <label for="miNombre">Mi nombre</label>
+                        <input class="u-full-width" type="text" placeholder="Nombre" id="miNombre" required>
+                    </div>
+                    <div class="columns four">
+                        <label for="miEmail">Mi email</label>
+                        <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="miEmail" required>
+                    </div>
+                    <div class="columns two ocultar-mobile">&nbsp;</div>
+                </div>
+                   <div class="row">
+                    <div class="columns two ocultar-mobile">&nbsp;</div>
+                    <div class="columns eight">
+                       <label for="miAsunto">Asunto del mensaje</label>
+                        <input class="u-full-width" type="text" placeholder="Escriba el asunto del mensaje" id="miAsunto" required>
+                    </div>
+                    <div class="columns two ocultar-mobile">&nbsp;</div>
+                </div>
+                <div class="row">
+                    <div class="columns two ocultar-mobile">&nbsp;</div>
+                    <div class="columns eight">
+                        <label for="miMensaje">Mi mensaje</label>
+                        <textarea class="u-full-width" type="text" placeholder="Escriba el cuerpo del mensaje" id="miMensaje" required></textarea>
+                    </div>
+                    <div class="columns two ocultar-mobile">&nbsp;</div>
+                </div>
+                <div class="row">
+                    <div class="columns two ocultar-mobile"> &nbsp;</div>
+                    <div class="columns eight">
+                        <button class="button-primary"><i class="fa fa-send fa-fw fa-lg"></i>&nbsp;Enviar</button>
+                    </div>
+                    <div class="columns two ocultar-mobile">&nbsp;</div>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="columns four ocultar-mobile"> &nbsp;</div>
+                <div class="columns four">
+                    <img class="u-full-width" src="assets/img/bigwhitelogo.png" alt="">
+                </div>
+                <div class="columns four ocultar-mobile">&nbsp;</div>
+            </div>
+        </div>
+
+    </body>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/autosize.min.js"></script>
+    <script type="text/javascript">
+        autosize($('#miMensaje'));
+    </script>
+</html>
