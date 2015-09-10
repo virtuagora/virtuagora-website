@@ -37,6 +37,53 @@ header.band.faq{
     padding: 10% 0 4% 0;
 }
 
+.contact-us{
+    background: url(../img/bcg-1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .formulario   {
+        padding-top: 9%;
+        padding-bottom: 3%;
+    }
+    label, h2, p{
+        color: #FFFFFF;
+    }
+    form{
+        padding: 8px;
+        background-color: rgba(86, 198, 208, 0.20);
+        border-radius: 8px;
+
+    }
+    .ocultar-mobile{
+        @media only screen and (max-width: 550px) {
+            display: none;
+        }
+    }
+}
+.pre-docs{
+    background: url(../img/bcg-1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    h2,p{
+        color: #FFFFFF;
+    }
+    .container{
+        padding-top: 9%;
+        padding-bottom: 3%;
+    }
+    .cartel{
+        padding: 20px;
+        background-color: rgba(86, 198, 208, 0.20);
+        border-radius: 8px;
+    }
+    hr{margin: 5px 0 30px 0;
+}
+}
+
 .band.faq.listado{
     padding: 25px 0 25px 0;
     text-align: center;
@@ -59,13 +106,13 @@ header.band.faq{
     .volver-head{
         display: none;
         @media (min-width: 1000px) {
-        display: block;
+            display: block;
         }
     }
     .volver-down{
         display: block;
         @media (min-width: 1000px) {
-        display: none;
+            display: none;
         }
     }
     a.button{
